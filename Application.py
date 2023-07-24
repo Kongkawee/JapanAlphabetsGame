@@ -464,7 +464,7 @@ class Application(tk.Tk):
         self.correct_percent.set(f"You play : {self.game.round} rounds\n"
                                  f"Correct : {self.game.correct}\n"
                                  f"Wrong : {self.game.wrong}\n"
-                                 f"Correct_percentage : {((self.game.correct/self.game.round)*100):.2f}%")
+                                 f"Correct percentage : {((self.game.correct/self.game.round)*100):.2f}%")
 
         correct_percentage = tk.Label(self, textvariable=self.correct_percent, font=("Helvetica", 20), borderwidth=3,
                          background="white", foreground="black", highlightthickness=2)
